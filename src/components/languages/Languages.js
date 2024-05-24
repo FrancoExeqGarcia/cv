@@ -5,7 +5,7 @@ const Languages = () => {
   return (
     <div className="languages">
       <h3>IDIOMAS</h3>
-      <p>Ingles: <span>40%</span></p>
+      <p>Ingles: <span>intermedio</span></p>
     </div>
   );
 };

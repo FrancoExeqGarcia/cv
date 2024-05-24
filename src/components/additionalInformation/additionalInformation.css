@@ -1,6 +1,9 @@
-/* src/components/AdditionalInformation.css */
+
 .additional-information {
     margin-bottom: 20px;
+    
+    background-color: rgb(250, 241, 241);
+    border-bottom: 2px solid #000;
   }
   
   .additional-information h2 {
@@ -16,4 +19,7 @@
   .additional-information li {
     margin: 10px 0;
   }
-  
+  .additional-information p{
+    margin: 5px 0;
+    color: #000;
+  }

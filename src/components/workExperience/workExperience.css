@@ -1,6 +1,8 @@
 /* src/components/WorkExperience.css */
 .work-experience {
     margin-bottom: 20px;
+    background-color: rgb(250, 241, 241);
+    border-bottom: 2px solid #000;
   }
   
   .work-experience h2 {
@@ -23,5 +25,5 @@
   
   .work-experience p {
     margin: 5px 0;
+    color: #000;
   }
-  

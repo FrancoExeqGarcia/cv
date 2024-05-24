@@ -4,16 +4,15 @@ import "../workExperience/workExperience.css";
 const WorkExperience = () => {
   return (
     <div className="work-experience">
-      <h2>WORK EXPERIENCE</h2>
+      <h2>EXPERIENCIA LABORAL</h2>
       <ul>
         <li>
-          <h3>Operations Specialist</h3>
+          <h3>Especialista en Operaciones</h3>
           <p>
-            {" "}
-            (November 2018 - March 2022): Intermittent common services at COFCO S.A.
-            contracted by Consultores de Empresas and Randstad. Duties included
-            site security, assisting in the human resources department, and
-            working as a plant operator
+            (Noviembre 2018 - Marzo 2022): Servicios comunes intermitentes en
+            COFCO S.A. contratado por Consultores de Empresas y Randstad. Las
+            tareas incluían la seguridad del sitio, asistencia en el
+            departamento de recursos humanos y trabajo como operador de planta.
           </p>
         </li>
       </ul>
