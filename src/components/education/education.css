@@ -1,30 +1,32 @@
-/* src/components/Education.css */
+
 .education {
-    margin-bottom: 20px;
-    background-color: rgb(250, 241, 241);
-    border-bottom: 2px solid #000;
-  }
-  
-  .education h2 {
-    border-bottom: 2px solid #000;
-    padding-bottom: 10px;
-  }
-  
-  .education ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .education li {
-    margin: 20px 0;
-  }
-  
-  .education h3 {
-    margin: 0;
-  }
-  
-  .education p {
-    margin: 5px 0;
-    color: #000;
-  }
-  
+  margin-bottom: 20px;
+  background-color: rgb(250, 241, 241);
+  border-bottom: 2px solid #000;
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  margin: 20px 0;
+}
+
+.education h3 {
+  margin: 0;
+}
+
+.education p {
+  margin: 5px 0;
+  color: #000;
+}
