@@ -1,8 +1,12 @@
 .header {
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+
   }
-  
+  .header:hover {
+    transform: scale(1.02); 
+  }
 .profile-picture {
   width: 150px;
   height: 150px;

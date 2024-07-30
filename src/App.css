@@ -60,3 +60,16 @@ p {
   margin-top: 10px;
   color: #ddd;
 }
+
+.left-column, .right-column {
+  transition: transform 0.3s ease-in-out;
+}
+
+.left-column:hover, .right-column:hover {
+  transform: scale(1.05);
+}
+
+.left-column > *:hover, .right-column > *:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
