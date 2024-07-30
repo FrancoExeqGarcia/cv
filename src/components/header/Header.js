@@ -8,16 +8,12 @@ const Header = () => {
       <img src={profilePicture} alt="Profile" className="profile-picture" />
       <div className="header-text">
         <h1>FRANCO GARCIA</h1>
-        <h2>Estudiante de Programación</h2>
+        <h2>Técnico Universitario en Programación</h2>
         <p>
           {" "}
-          Me graduaré como Técnico Universitario en Programación a principios de
-          julio de este año (2024) y actualmente estoy buscando mi primera
-          oportunidad laboral relacionada con la programación. Me considero una
-          persona responsable y organizada, deseando encontrar mi próxima
-          experiencia profesional. En mi tiempo libre, ocasionalmente disfruto
-          viendo conferencias de programación y contenido relacionado para
-          ampliar aún más mis conocimientos.
+          Me recibí como Técnico Universitario en Programación a principios de julio de este año (2024) 
+          y actualmente estoy buscando mi primera oportunidad laboral relacionada con la programación. 
+          Me considero una persona responsable y organizada, deseando encontrar mi próxima experiencia profesional.
         </p>
       </div>
     </div>

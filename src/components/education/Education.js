@@ -9,8 +9,8 @@ const Education = () => {
         <li>
           <h3>Técnico Universitario</h3>
           <p>
-            Actualmente cursando la carrera de Técnico Universitario en
-            Programación (TUP) en la Universidad Tecnológica Nacional
+            Egresado en la carrera de Técnico Universitario en
+            Programación (TUP) en la Universidad Tecnológica Nacional.
           </p>
         </li>
         <li>

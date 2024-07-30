@@ -7,7 +7,7 @@ const WorkExperience = () => {
       <h2>EXPERIENCIA LABORAL</h2>
       <ul>
         <li>
-          <h3>Especialista en Operaciones</h3>
+          <h3>Operario</h3>
           <p>
             (Noviembre 2018 - Marzo 2022): Servicios comunes intermitentes en
             COFCO S.A. contratado por Consultores de Empresas y Randstad. Las
