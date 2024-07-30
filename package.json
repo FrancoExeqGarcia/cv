@@ -2,7 +2,7 @@
   "name": "my-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://francoexeqgarcia.github.io/cv",
+  "homepage": "https://francoexeqgarcia.github.io/CV",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
