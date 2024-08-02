@@ -12,7 +12,7 @@ import AOS from "aos";
 import { useSelector } from "react-redux";
 import EN from "./languages/EN.json";
 import ES from "./languages/ES.json";
-
+import AboutMeSection from "./components/aboutMeSection/AboutMeSection";
 function App() {
   var language;
   const languageglobal = useSelector((state) => state.language.type);
@@ -36,6 +36,7 @@ function App() {
       </header>
       <main className="App-main">
         <AditionalInformation language={language}/>
+        <AboutMeSection language={language.AM}/>
         <Languages />
         <Contact />
         <Links />

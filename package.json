@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://francoexeqgarcia.github.io/cv",
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.4",
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
