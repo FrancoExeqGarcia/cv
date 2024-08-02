@@ -13,6 +13,8 @@ import { useSelector } from "react-redux";
 import EN from "./languages/EN.json";
 import ES from "./languages/ES.json";
 import AboutMeSection from "./components/aboutMeSection/AboutMeSection";
+import SkillsSection from "./components/skillsSection/SkillsSection";
+import Footer from './components/footer/Footer';
 function App() {
   var language;
   const languageglobal = useSelector((state) => state.language.type);
@@ -37,12 +39,13 @@ function App() {
       <main className="App-main">
         <AditionalInformation language={language}/>
         <AboutMeSection language={language.AM}/>
-        <Languages />
-        <Contact />
-        <Links />
-        <Education />
-        <WorkExperience />
+        <SkillsSection language={language.SK} skills={language.SKILLS}></SkillsSection>
+        <WorkExperience language={language.PJS} />
+        <Contact language={language.CF}/>
       </main>
+      <footer className="App-footer">
+        <Footer/>
+      </footer>
     </div>
   );
 }

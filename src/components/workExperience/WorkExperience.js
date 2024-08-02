@@ -1,23 +1,30 @@
-import React from "react";
-import "../workExperience/workExperience.css";
+import React, { useState } from "react";
+import "./workExperience.scss";
+import { ProjectMenu } from "./ProjectMenu";
+import { Frontend } from "./Frontend";
+import { Backend } from "./Backend";
 
-const WorkExperience = () => {
+export function WorkExperience(props) {
+  const { language } = props;
+  const [menu, setMenu] = useState("frontend");
+  const components = {
+    frontend: <Frontend frontend={language.projects.frontend} buttons={language.projects.buttons} />,
+    backend: <Backend backend={language.projects.backend} buttons={language.projects.buttons} />,
+  };
+
   return (
-    <div className="work-experience">
-      <h2>EXPERIENCIA LABORAL</h2>
-      <ul>
-        <li>
-          <h3>Operario</h3>
-          <p>
-            (Noviembre 2018 - Marzo 2022): Servicios comunes intermitentes en
-            COFCO S.A. contratado por Consultores de Empresas y Randstad. Las
-            tareas incluían la seguridad del sitio, asistencia en el
-            departamento de recursos humanos y trabajo como operador de planta.
-          </p>
-        </li>
-      </ul>
-    </div>
+    <>
+      <div id="projects"></div>
+      <div className="project_sections">
+        <div data-aos="zoom-in">
+          <h2 className="title_content">{language.title}</h2>
+          <ProjectMenu menu={menu} setMenu={setMenu} />
+        </div>
+        <div className="project_container">
+          {components[menu]}
+        </div>
+      </div>
+    </>
   );
-};
-
+}
 export default WorkExperience;
