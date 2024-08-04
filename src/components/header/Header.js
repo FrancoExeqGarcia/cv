@@ -41,14 +41,16 @@ const Header = (props) => {
             </Link>
           </div>
           <input
-            onClick={onActive}
-            hidden
-            className="check-icon"
-            id="check-icon"
-            name="check-icon"
-            type="checkbox"
-            checked={isActive ? true : false}
-          />
+  onClick={onActive}
+  hidden
+  className="check-icon"
+  id="check-icon"
+  name="check-icon"
+  type="checkbox"
+  checked={isActive}
+  onChange={(e) => SetIsActive(e.target.checked)}
+/>
+
           <label className="icon-menu menu_mobile_icon" for="check-icon">
             <div className="bar bar--1"></div>
             <div className="bar bar--2"></div>

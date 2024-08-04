@@ -46,6 +46,7 @@
         margin: 10px;
       }
       .image_card {
+        background-image: url("../../../public/projects/themovie.webp");
         position: relative;
         overflow: hidden;
         width: 100%;
@@ -120,6 +121,7 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       .backend_content_img {
+        background-image: url("../../../public/projects/taskBack.png");
         height: 100%;
         max-width: 500px;
         overflow: hidden;

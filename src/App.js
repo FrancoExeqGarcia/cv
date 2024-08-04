@@ -1,20 +1,18 @@
 // src/App.js
 import React, { useEffect } from 'react';
 import Header from './components/header/Header';
-import Languages from './components/languages/Languages';
 import Contact from './components/contact/Contact';
-import Education from './components/education/Education';
-import WorkExperience from './components/workExperience/WorkExperience';
 import AditionalInformation from './components/aditionalInformation/AditionalInformation';
-import Links from './components/links/Links';
 import './App.scss';
 import AOS from "aos";
 import { useSelector } from "react-redux";
 import EN from "./languages/EN.json";
 import ES from "./languages/ES.json";
 import AboutMeSection from "./components/aboutMeSection/AboutMeSection";
-import SkillsSection from "./components/skillsSection/SkillsSection";
 import Footer from './components/footer/Footer';
+import SkillsSection from './components/skillsSection/SkillsSection';
+import {ProjectSections} from './components/projectSections/ProjectSections';
+
 function App() {
   var language;
   const languageglobal = useSelector((state) => state.language.type);
@@ -40,7 +38,7 @@ function App() {
         <AditionalInformation language={language}/>
         <AboutMeSection language={language.AM}/>
         <SkillsSection language={language.SK} skills={language.SKILLS}></SkillsSection>
-        <WorkExperience language={language.PJS} />
+        <ProjectSections language={language.PJS}></ProjectSections>
         <Contact language={language.CF}/>
       </main>
       <footer className="App-footer">

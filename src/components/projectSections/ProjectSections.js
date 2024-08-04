@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./workExperience.scss";
+import "./ProjectSections.scss";
 import { ProjectMenu } from "./ProjectMenu";
 import { Frontend } from "./Frontend";
 import { Backend } from "./Backend";
 
-export function WorkExperience(props) {
+export function ProjectSections(props) {
   const { language } = props;
   const [menu, setMenu] = useState("frontend");
   const components = {
@@ -27,4 +27,4 @@ export function WorkExperience(props) {
     </>
   );
 }
-export default WorkExperience;
+export default ProjectSections;

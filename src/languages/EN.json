@@ -34,7 +34,7 @@
         {
           "title": "Cine App",
           "content": "Website for movies and series, as well as trends in both sections.",
-          "img": "/projects/themovie.webp",
+          "img": "projects/themovie.webp",
           "tecnology": ["Javascript"],
           "tag": ["localstorage"],
           "icon": "tv",
@@ -64,7 +64,7 @@
             "- Permissions and Roles.",
             "- Etc."
           ],
-          "img": "/projects/taskBack.webp",
+          "img": "/projects/taskBack.png",
           "tecnology": [".NET Core", "Sqlite"],
           "tag": ["netcore", "sqlite"],
           "icon": "blogger",

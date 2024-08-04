@@ -32,7 +32,7 @@
       "projects": {
         "frontend": [
           {
-            "title": "Cine App",
+            "title": "Cine AppS",
             "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
             "img": "/projects/themovie.webp",
             "tecnology": ["Javascript"],
@@ -64,7 +64,7 @@
               "- Permisos y Roles.",
               "- Etc."
             ],
-            "img": "/projects/taskBack.webp",
+            "img": "/projects/taskBack.png",
             "tecnology": [".NET Core", "Sqlite"],
             "tag": ["netcore", "sqlite"],
             "icon": "blogger",
