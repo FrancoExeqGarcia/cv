@@ -111,7 +111,7 @@ export function Nav(props) {
               <img
                 onClick={selectLenguage}
                 className="flag_lenguage"
-                src={`/flag/${language}.png`}
+                src={`/cv/flag/${language}.png`}
                 alt="Cambiar Idioma"
               />
             </li>
