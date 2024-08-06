@@ -1,0 +1,161 @@
+{
+  "Menu": {
+    "aboutme": "¿Quién soy?",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "FS": {
+    "title": "Técnico en Programación Franco Garcia",
+    "rol": {
+      "dev": "Desarrollador Web",
+      "ing": "Terciario"
+    },
+    "content": "Soy Franco Garcia, <b>Técnico universitario en Programación</b> con un nivel de <b>inglés B2</b>, hace 1 año y medio me dedico al <b>desarrollo web</b> enfocado en las buenas prácticas y metodologías ágiles para brindar resultados de calidad.",
+    "button": "Descargar CV",
+    "document": "CV"
+  },
+  "AM": {
+    "title": "Sobre mi",
+    "content_One": "Hola, soy Franco Garcia , tengo 30 años y soy de Argentina",
+    "content_Two": "Soy Técnico Universitario en Programación, con formación en el desarrollo de landing pages y e-commerce. Aunque mi experiencia práctica es limitada, mi mayor logro ha sido completar con éxito mi carrera técnica a tiempo, demostrando mi compromiso y capacidad para aprender y aplicar conocimientos en tecnología web.",
+    "content_Three": "Estoy interesado en áreas como el desarrollo frontend, backend y SQL."
+  },
+  "SK": {
+    "title": "Habilidades",
+    "bd": "Base de datos",
+    "tools": "Otras Herramientas",
+    "english": "Inglés B1"
+  },
+  "PJS": {
+    "title": "Proyectos",
+    "projects": {
+      "frontend": [
+        {
+          "title": "Cine AppS",
+          "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
+          "img": "/projects/themovie.webp",
+          "tecnology": ["Javascript"],
+          "tag": ["localstorage"],
+          "icon": "tv",
+          "link": "https://francoexeqgarcia.github.io/tup-lc2-cine-app.github.io/",
+          "code": "https://github.com/FrancoExeqGarcia/tup-lc2-cine-app.github.io"
+        },
+        {
+          "title": "Task Minder 1.0",
+          "content": "Primera versión de un proyecto facultativo donde empezamos a implementar un proyecto similar a Trello o Jira",
+          "img": "projects/taskMinder.webp",
+          "tecnology": ["React"],
+          "tag": ["react"],
+          "icon": "deaf"
+        }
+      ],
+      "backend": [
+        {
+          "title": "Backend Task Minder + JWT + SQLite",
+          "content": [
+            "Backend para Task Minder 1.0 realizado con arquitectura en capas y diferentes patrones, DTO, mappers, etc.",
+            "- Arquitectura en capas.",
+            "- Patrón de capa Servicio, Repositorio y DTO.",
+            "- Validación de modelos DTOs.",
+            "- AutoMapper para la mapear de manera más eficiente los DTOs a modelos.",
+            "- Middleware para gestionar todas las excepciones",
+            "- Jwt para autenticación y autorizacón.",
+            "- Permisos y Roles.",
+            "- Etc."
+          ],
+          "img": "projects/taskMinder.webp",
+          "tecnology": [".NET Core", "Sqlite"],
+          "tag": ["netcore", "sqlite"],
+          "icon": "blogger",
+          "code": "https://github.com/FrancoExeqGarcia/TPIP3"
+        }
+      ],
+      "buttons": {
+        "demo": "Ver demo",
+        "code": "Ver código"
+      }
+    }
+  },
+  "CF": {
+    "title": "Formulario de contacto",
+    "name": "Tu nombre",
+    "mail": "tucorreo@mail.com",
+    "content": "Quiero hablar contigo",
+    "info": "Háblame directamente a mi correo:",
+    "email": "francoexequiel.garcia150@gmail.com",
+    "button": "Enviar"
+  },
+  "SKILLS": {
+    "Frontend": [
+      {
+        "skill": "HTML5",
+        "icon": "/tecnologies/html.svg"
+      },
+      {
+        "skill": "CSS3",
+        "icon": "/tecnologies/css.svg"
+      },
+      {
+        "skill": "JavaScript",
+        "icon": "/tecnologies/javascript.svg"
+      },
+      {
+        "skill": "React",
+        "icon": "/tecnologies/react.svg"
+      },
+      {
+        "skill": "TypeScript",
+        "icon": "/tecnologies/typescript.svg"
+      }
+    ],
+    "Backend": [
+      {
+        "skill": ".Net Core",
+        "icon": "/tecnologies/netcore.svg"
+      },
+      {
+        "skill": "Python",
+        "icon": "/tecnologies/python.svg"
+      }
+    ],
+    "Testing": [
+      {
+        "skill": "React Testing Library",
+        "icon": "/tecnologies/react-testing-library.svg"
+      },
+      {
+        "skill": "xUnit",
+        "icon": "/tecnologies/xunit.svg"
+      }
+    ],
+    "DB": [
+      {
+        "skill": "MySQL",
+        "icon": "/tecnologies/mysql.svg"
+      },
+      {
+        "skill": "SQLServer",
+        "icon": "/tecnologies/sql-server.svg"
+      }
+    ],
+    "Others": [
+      {
+        "skill": "Git",
+        "icon": "/tecnologies/git.svg"
+      },
+      {
+        "skill": "Wordpress",
+        "icon": "/tecnologies/wordpress.svg"
+      },
+      {
+        "skill": "Photoshop",
+        "icon": "/tecnologies/photoshop.svg"
+      },
+      {
+        "skill": "Inglés B1",
+        "icon": "/tecnologies/english.svg"
+      }
+    ]
+  }
+}
