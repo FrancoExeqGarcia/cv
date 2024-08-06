@@ -23,7 +23,11 @@ export function Nav(props) {
       Setlanguage("ES");
     }
   };
+  const [isChecked, setIsChecked] = useState(false);
 
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
   return (
     <div className="nav_section">
       <div className="nav_content">
@@ -47,8 +51,9 @@ export function Nav(props) {
           name="check-icon"
           type="checkbox"
           checked={isActive ? true : false}
+          onChange={handleCheckboxChange}
         />
-        <label className="icon-menu menu_mobile_icon" for="check-icon">
+        <label className="icon-menu menu_mobile_icon" htmlFor="check-icon">
           <div className="bar bar--1"></div>
           <div className="bar bar--2"></div>
           <div className="bar bar--3"></div>
@@ -182,7 +187,7 @@ export function Nav(props) {
               <img
                 onClick={selectLenguage}
                 className="flag_lenguage"
-                src={`/flag/${language}.png`}
+                src={`/cv/flag/${language}.png`}
                 alt="Cambiar Idioma"
               />
             </li>
