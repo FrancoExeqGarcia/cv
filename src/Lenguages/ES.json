@@ -34,7 +34,7 @@
         {
           "title": "Cine AppS",
           "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
-          "img": "/projects/themovie.webp",
+          "img": "/cv/projects/themovie.webp",
           "tecnology": ["Javascript"],
           "tag": ["localstorage"],
           "icon": "tv",
@@ -44,7 +44,7 @@
         {
           "title": "Task Minder 1.0",
           "content": "Primera versión de un proyecto facultativo donde empezamos a implementar un proyecto similar a Trello o Jira",
-          "img": "projects/taskMinder.webp",
+          "img": "/cv/projects/taskMinder.webp",
           "tecnology": ["React"],
           "tag": ["react"],
           "icon": "deaf"
@@ -64,7 +64,7 @@
             "- Permisos y Roles.",
             "- Etc."
           ],
-          "img": "projects/taskMinder.webp",
+          "img": "/cv/projects/taskMinder.webp",
           "tecnology": [".NET Core", "Sqlite"],
           "tag": ["netcore", "sqlite"],
           "icon": "blogger",
@@ -90,71 +90,71 @@
     "Frontend": [
       {
         "skill": "HTML5",
-        "icon": "/tecnologies/html.svg"
+        "icon": "/cv/tecnologies/html.svg"
       },
       {
         "skill": "CSS3",
-        "icon": "/tecnologies/css.svg"
+        "icon": "/cv/tecnologies/css.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "/tecnologies/javascript.svg"
+        "icon": "/cv/tecnologies/javascript.svg"
       },
       {
         "skill": "React",
-        "icon": "/tecnologies/react.svg"
+        "icon": "/cv/tecnologies/react.svg"
       },
       {
         "skill": "TypeScript",
-        "icon": "/tecnologies/typescript.svg"
+        "icon": "/cv/tecnologies/typescript.svg"
       }
     ],
     "Backend": [
       {
         "skill": ".Net Core",
-        "icon": "/tecnologies/netcore.svg"
+        "icon": "/cv/tecnologies/netcore.svg"
       },
       {
         "skill": "Python",
-        "icon": "/tecnologies/python.svg"
+        "icon": "/cv/tecnologies/python.svg"
       }
     ],
     "Testing": [
       {
         "skill": "React Testing Library",
-        "icon": "/tecnologies/react-testing-library.svg"
+        "icon": "/cv/tecnologies/react-testing-library.svg"
       },
       {
         "skill": "xUnit",
-        "icon": "/tecnologies/xunit.svg"
+        "icon": "/cv/tecnologies/xunit.svg"
       }
     ],
     "DB": [
       {
         "skill": "MySQL",
-        "icon": "/tecnologies/mysql.svg"
+        "icon": "/cv/tecnologies/mysql.svg"
       },
       {
         "skill": "SQLServer",
-        "icon": "/tecnologies/sql-server.svg"
+        "icon": "/cv/tecnologies/sql-server.svg"
       }
     ],
     "Others": [
       {
         "skill": "Git",
-        "icon": "/tecnologies/git.svg"
+        "icon": "/cv/tecnologies/git.svg"
       },
       {
         "skill": "Wordpress",
-        "icon": "/tecnologies/wordpress.svg"
+        "icon": "/cv/tecnologies/wordpress.svg"
       },
       {
         "skill": "Photoshop",
-        "icon": "/tecnologies/photoshop.svg"
+        "icon": "/cv/tecnologies/photoshop.svg"
       },
       {
         "skill": "Inglés B1",
-        "icon": "/tecnologies/english.svg"
+        "icon": "/cv/tecnologies/english.svg"
       }
     ]
   }
