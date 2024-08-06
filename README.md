@@ -1,6 +1,6 @@
 # Franco Garcia Desarrollador Web
 
-Hola, soy Franco Exequiel Garcia Galarza, tengo 30 años y soy de Argentina.
+Hola, soy Franco Exequiel Garcia, tengo 30 años y soy de Argentina.
 
 # Tecnologías
 
