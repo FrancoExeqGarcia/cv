@@ -69,7 +69,7 @@ export function Firstsection(props) {
           <a
             className="btn btn_yellow"
             download
-            href={`/document/${language.FS.document}.pdf`}
+            href={`/cv/document/${language.FS.document}.pdf`}
           >
             {language.FS.button} <Icon name="download" />
           </a>
