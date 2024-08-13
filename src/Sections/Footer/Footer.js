@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <div className="footer_section">
       <p>
-        © Franco Garcia | Fullstack Developer
+        © Franco Garcia | Backend Developer
       </p>
     </div>
   );
