@@ -13,7 +13,8 @@
     },
     "content": "Soy Franco Garcia, <b>Técnico universitario en Programación</b> con un nivel de <b>inglés B2</b>. Durante los dos años de mi tecnicatura, he profundizado en tecnologias backend, con un enfoque en .NET",
     "button": "Descargar CV",
-    "document": "CV"
+    "document": "CV",
+    "ensolvers": "Garcia-ed0fe6"
   },
   "AM": {
     "title": "Sobre mi",

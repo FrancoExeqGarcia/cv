@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Typed from "typed.js";
 import "./firstsection.scss";
 import { Icon } from "semantic-ui-react";
@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import "semantic-ui-css/components/icon.min.css";
 
 export function Firstsection(props) {
+  const [password, setPassword] = useState("");
+  const [isAuthorized, setIsAuthorized] = useState(false);
   const { language } = props;
   const el = useRef(null);
   useEffect(() => {
@@ -23,10 +25,20 @@ export function Firstsection(props) {
       typed.destroy();
     };
   }, [language]);
+  const handlePasswordSubmit = () => {
+    const userPassword = prompt('Please enter the password:');
+    const correctPassword = "123456";
+
+    if (userPassword === correctPassword) {
+      setIsAuthorized(true);
+    } else {
+      alert("Incorrect password. Please try again.");
+    }
+  };
+
   return (
     <div id="franco" className="first-block">
-      <div data-aos="fade-down" className="img_block" 
-      >
+      <div data-aos="fade-down" className="img_block">
         <div className="avatar_main"></div>
       </div>
       <div className="about_me_block">
@@ -53,12 +65,47 @@ export function Firstsection(props) {
           >
             <Icon size="large" name="linkedin" />
           </Link>
-          <Link target="_blank" to="https://github.com/FrancoExeqGarcia" title="github" aria-label="github">
+          <Link
+            target="_blank"
+            to="https://github.com/FrancoExeqGarcia"
+            title="github"
+            aria-label="github"
+          >
             <Icon size="large" name="github" />
           </Link>
-          <Link to="mailto:francoexequiel.garcia150@gmail.com" title="mail" aria-label="mail">
+          <Link
+            to="mailto:francoexequiel.garcia150@gmail.com"
+            title="mail"
+            aria-label="mail"
+          >
             <Icon size="large" name="mail" />
           </Link>
+        </div>{" "}
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-offset="-250"
+          className="download_button"
+        >
+          <button
+            className="btn btn_yellow"
+            onClick={() => {
+              const userPassword = prompt("Please enter the password:");
+              setPassword(userPassword);
+              handlePasswordSubmit();
+            }}
+          >
+            ENSOLVERS <Icon name="download" />
+          </button>
+          {isAuthorized && (
+            <a
+              className="btn btn_yellow"
+              download
+              href={`/cv/document/${language.FS.ensolvers}.zip`}
+            >
+              Download <Icon name="download" />
+            </a>
+          )}
         </div>
         <div
           data-aos="fade-up"
