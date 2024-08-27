@@ -11,7 +11,7 @@
       "dev": "Programador Web",
       "ing": "Terciario"
     },
-    "content": "Soy Franco Garcia, <b>Técnico universitario en Programación</b> con un nivel de <b>inglés B2</b>. Durante los dos años de mi tecnicatura, he profundizado en tecnologias backend, con un enfoque en .NET",
+    "content": "Soy Franco Garcia, <b>Técnico universitario en Programación</b> con un nivel de <b>inglés B2</b>. Durante los dos años de mi tecnicatura, he profundizado en tecnologias backend, con un enfoque en .NET, y Frontend, desarrollando en React",
     "button": "Descargar CV",
     "document": "CV",
     "ensolvers": "Garcia-ed0fe6"
@@ -19,8 +19,8 @@
   "AM": {
     "title": "Sobre mi",
     "content_One": "Hola, soy Franco Garcia , tengo 30 años y soy de Argentina",
-    "content_Two": "Aunque mi experiencia práctica es limitada, estoy comprometido con seguir especializándome en el desarrollo backend y aplicando las mejores prácticas aprendidas en mi formación. ",
-    "content_Three": "Estoy interesado en áreas como el desarrollo backend y SQL."
+    "content_Two": "Aunque mi experiencia práctica es limitada, estoy comprometido con seguir especializándome en el desarrollo FullStack y aplicando las mejores prácticas aprendidas en mi formación. ",
+    "content_Three": ""
   },
   "SK": {
     "title": "Habilidades",

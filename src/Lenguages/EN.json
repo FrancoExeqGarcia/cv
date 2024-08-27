@@ -11,15 +11,15 @@
       "dev": "Web Programmer",
       "ing": "Programming Technician"
     },
-    "content": "I am Franco García, a <b>University Technician in Programming</b> with a <b>B2 level of English</b>. During the two years of my technical degree, I delve into backend technologies, with a focus on .NET.",
+    "content": "I am Franco García, a <b>University Technician in Programming</b> with a <b>B2 level of English</b>. During the two years of my technical degree, I delve into backend technologies, with a focus on .NET., and Frontend, developed in React",
     "button": "Download CV",
     "document": "CV"
   },
   "AM": {
     "title": "About me",
     "content_One": "Hi, I'm Franco Garcia, 30 years old, and I'm from Argentina.",
-    "content_Two": "Although my practical experience is limited, I'm committed to continuing to specialize in backend development and applying the best practices learned in my training.",
-    "content_Three": "I'm interested in areas such as backend development and SQL."
+    "content_Two": "Although my practical experience is limited, I'm committed to continuing to specialize in FullStack development and applying the best practices learned in my training.",
+    "content_Three": ""
   },
   "SK": {
     "title": "Skills",
