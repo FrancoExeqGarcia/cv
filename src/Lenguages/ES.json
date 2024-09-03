@@ -20,7 +20,8 @@
     "title": "Sobre mi",
     "content_One": "Hola, soy Franco Garcia , tengo 30 años y soy de Argentina",
     "content_Two": "Aunque mi experiencia práctica es limitada, estoy comprometido con seguir especializándome en el desarrollo FullStack y aplicando las mejores prácticas aprendidas en mi formación. ",
-    "content_Three": ""
+    "content_Three": "",
+    "certifications" : "Certificaciones"
   },
   "SK": {
     "title": "Habilidades",

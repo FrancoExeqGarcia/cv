@@ -15,6 +15,9 @@
     .about_me_img .about_me_player {
       width: $img_width;
     }
+    .about_me_img .certifications {
+      width: $img_width;
+    }
     .about_me_info {
       width: 45%;
       line-height: 25px;
@@ -54,6 +57,61 @@
       .about_me_player {
         width: 70%;
       }
+      .certifications{
+        width: 30%;
+        height: 30%;
+      }
     }
   }
+}
+.about_me_section .img_certifications{
+  height: 100px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 30%;
+  max-height: 30%;
+  position: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; // Centra el contenido
+  max-height: 100%; // Asegúrate de que el contenido no exceda la altura del modal
+  overflow: hidden;
+}
+
+.img_preview {
+  max-width: 100%;  // Limita el ancho de la imagen al 100% del contenedor
+  max-height: 100%; // Limita la altura de la imagen al 100% del contenedor
+  object-fit: contain; // Asegura que la imagen mantenga su proporción dentro del contenedor
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f16767;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

@@ -19,7 +19,8 @@
     "title": "About me",
     "content_One": "Hi, I'm Franco Garcia, 30 years old, and I'm from Argentina.",
     "content_Two": "Although my practical experience is limited, I'm committed to continuing to specialize in FullStack development and applying the best practices learned in my training.",
-    "content_Three": ""
+    "content_Three": "",
+    "certifications" : "Certifications"
   },
   "SK": {
     "title": "Skills",
