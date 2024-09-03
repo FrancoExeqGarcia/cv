@@ -43,11 +43,13 @@
         },
         {
           "title": "Task Minder 1.0",
-          "content": "First version of an optional project where we started to implement a project similar to Trello or Jira",
+          "content": "First version of an optional project similar to Jira, within the 'view code' button you can find the available users",
           "img": "/cv/projects/taskMinder.webp",
           "tecnology": ["React"],
           "tag": ["react"],
-          "icon": "deaf"
+          "icon": "deaf",
+          "link": "https://francoexeqgarcia.github.io/tup-lc2-cine-app.github.io/",
+          "code": "https://github.com/FrancoExeqGarcia/tup-lc2-cine-app.github.io"
         }
       ],
       "backend": [
@@ -91,7 +93,8 @@
       ],
       "buttons": {
         "demo": "View demo",
-        "code": "View code"
+        "code": "View code",
+        "video": "View video"
       }
     }
   },
@@ -131,6 +134,10 @@
       {
         "skill": ".Net Core",
         "icon": "/cv/tecnologies/netcore.svg"
+      },
+      {
+        "skill": "C#",
+        "icon": "/cv/tecnologies/cc.svg"
       }
     ],
     "Testing": [
@@ -157,10 +164,6 @@
       {
         "skill": "Wordpress",
         "icon": "/cv/tecnologies/wordpress.svg"
-      },
-      {
-        "skill": "Photoshop",
-        "icon": "/cv/tecnologies/photoshop.svg"
       },
       {
         "skill": "English B1",

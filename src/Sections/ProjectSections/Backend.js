@@ -24,6 +24,7 @@ export function Backend(props) {
                   <p key={index}>{content}</p>
                 ))}
                 <Link to={project.code} target="_blank" className="btn btn_yellow float-right"><Icon name="github" /> {buttons.code}</Link>
+                <Link to={project.video} target="_blank" className="btn btn_red float-right"><Icon name="youtube" /> {buttons.video}</Link>
               </div>
             <div className="backend_content_card_tags ">
               {project.tecnology.map((tec, index) => (

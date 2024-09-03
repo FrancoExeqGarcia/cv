@@ -44,11 +44,13 @@
         },
         {
           "title": "Task Minder 1.0",
-          "content": "Primera versión de un proyecto facultativo donde empezamos a implementar un proyecto similar a Trello o Jira",
+          "content": "Primera versión de un proyecto facultativo similar a Jira, dentro del boton ´ver codigo´ se encuentran los usuarios disponibles",
           "img": "/cv/projects/taskMinder.webp",
           "tecnology": ["React"],
           "tag": ["react"],
-          "icon": "deaf"
+          "icon": "deaf",
+          "link": "https://task-minder-vt4r.onrender.com/login/",
+          "code": "https://github.com/FrancoExeqGarcia/fake-api-nodejs/blob/main/database.json"
         }
       ],
       "backend": [
@@ -69,7 +71,8 @@
           "tecnology": [".NET Core", "Sqlite"],
           "tag": ["netcore", "sqlite"],
           "icon": "blogger",
-          "code": "https://github.com/FrancoExeqGarcia/TPIP3"
+          "code": "https://github.com/FrancoExeqGarcia/TPIP3",
+          "video": "https://youtu.be/xM1VZmv_S0M"
         },
         {
           "title": "Backend Task Minder 2.0",
@@ -87,12 +90,14 @@
           "tecnology": [".NET Core", "Sql Server","React"],
           "tag": ["netcore", "sqlserver", "react"],
           "icon": "blogger",
-          "code": "https://github.com/FrancoExeqGarcia/TP-PPS"
+          "code": "https://github.com/FrancoExeqGarcia/TP-PPS",
+          "video": "https://youtu.be/qUS6ZKR4HNo"
         }
       ],
       "buttons": {
         "demo": "Ver demo",
-        "code": "Ver código"
+        "code": "Ver código",
+        "video": "Ver video"
       }
       
       
@@ -134,6 +139,9 @@
       {
         "skill": ".Net Core",
         "icon": "/cv/tecnologies/netcore.svg"
+      },{
+        "skill": "C#",
+        "icon": "/cv/tecnologies/cc.svg"
       }
     ],
     "Testing": [
@@ -162,11 +170,7 @@
         "icon": "/cv/tecnologies/wordpress.svg"
       },
       {
-        "skill": "Photoshop",
-        "icon": "/cv/tecnologies/photoshop.svg"
-      },
-      {
-        "skill": "Inglés B1",
+        "skill": "Inglés B2",
         "icon": "/cv/tecnologies/english.svg"
       }
     ]
