@@ -107,7 +107,7 @@ export function Firstsection(props) {
             </a>
           )}
         </div>
-        <div
+         {/*<div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-offset="-250"
@@ -120,7 +120,7 @@ export function Firstsection(props) {
           >
             {language.FS.button} <Icon name="download" />
           </a>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
