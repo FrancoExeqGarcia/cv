@@ -98,20 +98,20 @@ export function Nav(props) {
               >
                 {len.projects}
               </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-                aria-label="sección de contacto"
-              >
-                {len.contact}
-              </Link>
-            </li>
+          </li>{/**
+          <li>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              aria-label="sección de contacto"
+            >
+              {len.contact}
+            </Link>
+          </li> */}
             <li>
               <img
                 onClick={selectLenguage}
@@ -169,6 +169,7 @@ export function Nav(props) {
                 {len.projects}
               </Link>
             </li>
+            {/**
             <li>
               <Link
                 activeClass="active"
@@ -182,7 +183,7 @@ export function Nav(props) {
               >
                 {len.contact}
               </Link>
-            </li>
+            </li>**/}
             <li>
               <img
                 onClick={selectLenguage}
