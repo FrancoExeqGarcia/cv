@@ -6,13 +6,16 @@ import Modal from 'react-modal';
 export function Aboutmesection(props) {
   const { language } = props;
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState("");
 
-  const openModal = () => {
+  const openModal = (imagePath) => {
+    setSelectedImage(imagePath);
     setModalIsOpen(true);
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
+    setSelectedImage("");
   };
 
   return (
@@ -46,8 +49,14 @@ export function Aboutmesection(props) {
         <img
           className="img_certifications"
           src={"../../../cv/projects/POO.png"}
-          alt="Certification"
-          onClick={openModal} 
+          alt="Certification POO"
+          onClick={() => openModal("../../../cv/certifications/Poo-certificate.jpg")}
+        />
+        <img
+          className="img_certifications"
+          src={"../../../cv/projects/jq.png"}
+          alt="Certification JS"
+          onClick={() => openModal("../../../cv/certifications/JS.jpeg")}
         />
       </div>
 
@@ -59,11 +68,13 @@ export function Aboutmesection(props) {
         overlayClassName="modal-overlay"
       >
         <div className="modal-content">
-          <img
-            src={"../../../cv/certifications/Poo-certificate.jpg"}
-            alt="Certification Preview"
-            className="img_preview"
-          />
+          {selectedImage && (
+            <img
+              src={selectedImage}
+              alt="Certification Preview"
+              className="img_preview"
+            />
+          )}
           <button onClick={closeModal} className="close-button">Cerrar</button>
         </div>
       </Modal>
