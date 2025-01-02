@@ -3,13 +3,15 @@ import "./ProjectSections.scss";
 import { ProjectMenu } from "./ProjectMenu";
 import { Frontend } from "./Frontend";
 import { Backend } from "./Backend";
+import { DataAnalysis } from "./DataAnalysis";
 
 export function ProjectSections(props) {
   const { language } = props;
   const [menu, setMenu] = useState("frontend");
   const components = {
     frontend: <Frontend frontend={language.projects.frontend} buttons={language.projects.buttons} />,
-    backend: <Backend backend={language.projects.backend} buttons={language.projects.buttons} />
+    backend: <Backend backend={language.projects.backend} buttons={language.projects.buttons} />,
+    dataAnalysis: <DataAnalysis dataAnalysis={language.projects.dataAnalysis} buttons={language.projects.buttons} /> 
   };
 
   return (
