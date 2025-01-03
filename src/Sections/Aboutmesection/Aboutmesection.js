@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./aboutmesection.scss";
 import { Player } from "@lottiefiles/react-lottie-player";
-import Modal from 'react-modal';
+import Modal from "react-modal";
 
 export function Aboutmesection(props) {
   const { language } = props;
@@ -22,8 +22,8 @@ export function Aboutmesection(props) {
     <>
       <div id="about_me"></div>
       <div data-aos="fade-right" className="about_me_section">
-        <h2 className="title_content">{language.title}</h2>
-        <div className="about_me_content">
+      <h2 className="title_content">{language.certifications}</h2>
+      <div className="about_me_content">
           <div className="about_me_img">
             <Player
               className="about_me_player"
@@ -38,26 +38,28 @@ export function Aboutmesection(props) {
             ></Player>
           </div>
           <div className="about_me_info">
-            <p dangerouslySetInnerHTML={{ __html: language.content_One }}></p>
-            <p dangerouslySetInnerHTML={{ __html: language.content_Two }}></p>
-            <p dangerouslySetInnerHTML={{ __html: language.content_Three }}></p>
+            <img
+              className="img_certifications"
+              src={"../../../cv/projects/POO.png"}
+              alt="Certification POO"
+              onClick={() =>
+                openModal("../../../cv/certifications/Poo-certificate.jpg")
+              }
+            />
+            <img
+              className="img_certifications"
+              src={"../../../cv/projects/jq.png"}
+              alt="Certification JS"
+              onClick={() => openModal("../../../cv/certifications/JS.jpeg")}
+            />
+            <img
+              className="img_certifications"
+              src={"../../../cv/projects/data.png"}
+              alt="Certification Data Analytics"
+              onClick={() => openModal("../../../cv/certifications/Data-Analytics.jpg")}
+            />
           </div>
         </div>
-        <h2 className="title_content">
-          {language.certifications}
-        </h2>
-        <img
-          className="img_certifications"
-          src={"../../../cv/projects/POO.png"}
-          alt="Certification POO"
-          onClick={() => openModal("../../../cv/certifications/Poo-certificate.jpg")}
-        />
-        <img
-          className="img_certifications"
-          src={"../../../cv/projects/jq.png"}
-          alt="Certification JS"
-          onClick={() => openModal("../../../cv/certifications/JS.jpeg")}
-        />
       </div>
 
       <Modal
@@ -75,7 +77,9 @@ export function Aboutmesection(props) {
               className="img_preview"
             />
           )}
-          <button onClick={closeModal} className="close-button">Cerrar</button>
+          <button onClick={closeModal} className="close-button">
+            Cerrar
+          </button>
         </div>
       </Modal>
     </>
