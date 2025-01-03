@@ -1328,10 +1328,10 @@
     "@babel/runtime" "^7.10.4"
     react-is "^16.6.3"
 
-"@fortawesome/fontawesome-free@^6.4.0":
-  version "6.4.2"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-6.4.2.tgz"
-  integrity sha512-m5cPn3e2+FDCOgi1mz0RexTUvvQibBebOUlUlW0+YrMjDTPkiJ6VTKukA1GRsvRw+12KyJndNjj0O4AgTxm2Pg==
+"@fortawesome/fontawesome-free@^6.7.2":
+  version "6.7.2"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-6.7.2.tgz"
+  integrity sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==
 
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
@@ -8497,10 +8497,10 @@ semantic-ui-css@^2.5.0:
   dependencies:
     jquery x.*
 
-semantic-ui-react@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.npmjs.org/semantic-ui-react/-/semantic-ui-react-2.1.4.tgz"
-  integrity sha512-7CxjBoFUfH7fUvtn+SPkkIocthUD9kV3niF1mUMa9TbeyPAf2brtRCZBlT2OpHaXmkscFzGjEfhbJo9gKfotzQ==
+semantic-ui-react@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.npmjs.org/semantic-ui-react/-/semantic-ui-react-2.1.5.tgz"
+  integrity sha512-nIqmmUNpFHfovEb+RI2w3E2/maZQutd8UIWyRjf1SLse+XF51hI559xbz/sLN3O6RpLjr/echLOOXwKCirPy3Q==
   dependencies:
     "@babel/runtime" "^7.10.5"
     "@fluentui/react-component-event-listener" "~0.63.0"

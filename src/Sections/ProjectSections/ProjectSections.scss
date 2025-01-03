@@ -159,6 +159,102 @@
     }
   }
 }
+// Data Analysis Card
+.item_card_dataanalysis {
+  width: 100%;
+  max-width: 47%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 0px #e3e3e3;
+  max-height: 350px;
+  min-width: 310px;
+
+  .item_card_title {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .image_card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      transition: 0.5s ease all;
+      aspect-ratio: 2 / 1.5;
+    }
+  }
+
+  .content_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.6);
+    transition: 0.5s ease all;
+    opacity: 0;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    gap: 10px;
+    font-weight: bold;
+    background: rgba(0, 168, 225, 0.8);
+  }
+
+  .background_img {
+    opacity: 0;
+    background-color: rgb(42 61 102 / 43%);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease all;
+  }
+
+  &:hover .content_img {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  &:hover .image_card img {
+    transform: scale(1.2);
+    filter: brightness(0.7);
+    opacity: 0.9;
+  }
+
+  &:hover .background_img {
+    opacity: 1;
+  }
+
+  .technologies_card {
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid #efefef;
+    gap: 3px;
+
+    .tag {
+      font-size: 12px;
+      background-color: #47A248;
+      color: #fff;
+      padding: 5px 8px;
+      border-radius: 3px;
+    }
+  }
+}
 
 @media (max-width: $responsive_media) {
   .project_sections .project_container {
@@ -176,7 +272,22 @@
         max-height: 300px;
         border-radius: 5px 5px 0px 0px;
       }
+    }.item_card_dataanalysis { 
+      margin: auto;
+      max-width: 80%;
+      .image_card {
+        img {
+          aspect-ratio: unset;
+          max-height: 300px;
+        }
+      }
+      .content_img {
+        padding: 10px;
+        text-align: center;
+      }
+      .technologies_card {
+        flex-wrap: wrap; 
+      }
     }
   }
-  
 }

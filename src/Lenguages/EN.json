@@ -92,6 +92,16 @@
           "code": "https://github.com/FrancoExeqGarcia/TP-PPS"
         }
       ],
+      "dataAnalysis": [
+      {
+        "title": "Platform Analysis",
+        "img": "/cv/projects/Investigacion-de-Mercados.jpg",
+        "content": "Streaming platform analysis project using Excel.",
+        "tecnology": ["Excel"],
+        "tag": ["excel"],
+        "code": "https://docs.google.com/spreadsheets/d/1hleZfCr8-rlRtO3TEI9FIAo6Zi7tQhanaWZWjSXdv_s/edit?gid=451750751#gid=451750751"
+      }
+    ],
       "buttons": {
         "demo": "View demo",
         "code": "View code",

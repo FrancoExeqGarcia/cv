@@ -72,8 +72,7 @@
         "tecnology": [".NET Core", "Sqlite"],
         "tag": ["netcore", "sqlite"],
         "icon": "blogger",
-        "code": "https://github.com/FrancoExeqGarcia/TPIP3",
-        "video": "https://youtu.be/xM1VZmv_S0M"
+        "code": "https://github.com/FrancoExeqGarcia/TPIP3"
       },
       {
         "title": "Backend Task Minder 2.0",
@@ -91,15 +90,16 @@
         "tecnology": [".NET Core", "Sql Server","React"],
         "tag": ["netcore", "sqlserver", "react"],
         "icon": "blogger",
-        "code": "https://github.com/FrancoExeqGarcia/TP-PPS",
-        "video": "https://youtu.be/qUS6ZKR4HNo"
+        "code": "https://github.com/FrancoExeqGarcia/TP-PPS"
       }
     ],
     "dataAnalysis": [
       {
-        "title": "Análisis de Ventas",
+        "title": "Curso Fundamentos de Data Analytics",
+        "img": "/cv/projects/Investigacion-de-Mercados.jpg",
         "content": "Proyecto de análisis de plataformas de streaming utilizando Excel.",
         "tecnology": ["Excel"],
+        "tag": ["excel"],
         "code": "https://docs.google.com/spreadsheets/d/1hleZfCr8-rlRtO3TEI9FIAo6Zi7tQhanaWZWjSXdv_s/edit?gid=451750751#gid=451750751"
       }
     ],

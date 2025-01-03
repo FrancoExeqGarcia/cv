@@ -25,25 +25,26 @@ export function Contactsection(props) {
     if (isSent) {
       SetIsSent(false);
 
-      emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams
-      )
-      .then(
-        () => {
-          SetTypeClass("alert success");
-          SetMessageAlert("Tu correo fue enviado");
-        },
-        (error) => {
-          SetTypeClass("alert error");
-          SetMessageAlert(`Error al enviar el correo: ${error.text}`);
-          console.error('Error al enviar el correo:', error);
-        }
-      )
-      .finally(() => {
-        setIsLoading(false);
-      });
+      emailjs
+        .send(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          templateParams
+        )
+        .then(
+          () => {
+            SetTypeClass("alert success");
+            SetMessageAlert("Tu correo fue enviado");
+          },
+          (error) => {
+            SetTypeClass("alert error");
+            SetMessageAlert(`Error al enviar el correo: ${error.text}`);
+            console.error("Error al enviar el correo:", error);
+          }
+        )
+        .finally(() => {
+          setIsLoading(false);
+        });
     } else {
       SetTypeClass("alert error");
       SetMessageAlert("Tu correo ya fue enviado");

@@ -2,6 +2,7 @@ import React, { Suspense, lazy, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
+import 'semantic-ui-css/semantic.min.css';
 import {
   Firstsection,
   Nav,
