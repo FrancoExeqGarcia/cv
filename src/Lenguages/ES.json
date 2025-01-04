@@ -52,6 +52,16 @@
         "icon": "deaf",
         "link": "https://task-minder-vt4r.onrender.com/login/",
         "code": "https://github.com/FrancoExeqGarcia/fake-api-nodejs/blob/main/database.json"
+      },
+      {
+        "title": "Traductor",
+        "content": "Pagina web para traducir textos",
+        "img": "/cv/images/traductor.jpg",
+        "tecnology": ["React","TypeScript"],
+        "tag": ["react","typescript"],
+        "icon": "translate",
+        "link": "https://francoexeqgarcia.github.io/traductor/",
+        "code": "https://github.com/FrancoExeqGarcia/traductor"
       }
     ],
     "backend": [
