@@ -51,6 +51,16 @@
           "icon": "deaf",
           "link": "https://francoexeqgarcia.github.io/tup-lc2-cine-app.github.io/",
           "code": "https://github.com/FrancoExeqGarcia/tup-lc2-cine-app.github.io"
+        },
+        {
+          "title": "Translator",
+          "content": "Website for translating texts",
+          "img": "/cv/images/Google_Translate.png",
+          "tecnology": ["React","TypeScript"],
+          "tag": ["react","typescript"],
+          "icon": "translate",
+          "link": "https://francoexeqgarcia.github.io/traductor/",
+          "code": "https://github.com/FrancoExeqGarcia/traductor"
         }
       ],
       "backend": [

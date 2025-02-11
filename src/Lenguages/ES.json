@@ -56,7 +56,7 @@
       {
         "title": "Traductor",
         "content": "Pagina web para traducir textos",
-        "img": "/cv/images/traductor.jpg",
+        "img": "/cv/images/Google_Translate.png",
         "tecnology": ["React","TypeScript"],
         "tag": ["react","typescript"],
         "icon": "translate",

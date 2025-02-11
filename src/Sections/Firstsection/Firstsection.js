@@ -81,46 +81,6 @@ export function Firstsection(props) {
             <Icon size="large" name="mail" />
           </Link>
         </div>{" "}
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
-          data-aos-offset="-250"
-          className="download_button"
-        >
-          <button
-            className="btn btn_yellow"
-            onClick={() => {
-              const userPassword = prompt("Please enter the password:");
-              setPassword(userPassword);
-              handlePasswordSubmit();
-            }}
-          >
-            ENSOLVERS <Icon name="download" />
-          </button>
-          {isAuthorized && (
-            <a
-              className="btn btn_yellow"
-              download
-              href={`/cv/document/${language.FS.ensolvers}.zip`}
-            >
-              Download <Icon name="download" />
-            </a>
-          )}
-        </div>
-         {/*<div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
-          data-aos-offset="-250"
-          className="download_button"
-        >
-          <a
-            className="btn btn_yellow"
-            download
-            href={`/cv/document/${language.FS.document}.pdf`}
-          >
-            {language.FS.button} <Icon name="download" />
-          </a>
-        </div>*/}
       </div>
     </div>
   );
