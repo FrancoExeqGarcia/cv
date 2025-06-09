@@ -61,7 +61,16 @@
           "icon": "translate",
           "link": "https://francoexeqgarcia.github.io/traductor/",
           "code": "https://github.com/FrancoExeqGarcia/traductor"
-        }
+        },
+      {
+        "title": "Dollar value",
+        "content": "Website for checking dollar prices. Give it a minute to wake up! The servers are down.Website for checking dollar prices. Give it a minute to wake up! Servers go to sleep due to inactivity.",
+        "img": "/cv/projects/dolar.png",
+        "tecnology": ["React","TypeScript"],
+        "tag": ["react","typescript"],
+        "icon": "dollar",
+        "link": "https://frontend-finanzas-beta.vercel.app/"
+      }
       ],
       "backend": [
         {

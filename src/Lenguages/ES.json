@@ -62,6 +62,15 @@
         "icon": "translate",
         "link": "https://francoexeqgarcia.github.io/traductor/",
         "code": "https://github.com/FrancoExeqGarcia/traductor"
+      },
+      {
+        "title": "Valor dolar",
+        "content": "Pagina web para consultar precios del dolar. Dale un minuto para que se despierte! Los servidores se duermen por inactividad.",
+        "img": "/cv/projects/dolar.png",
+        "tecnology": ["React","TypeScript"],
+        "tag": ["react","typescript"],
+        "icon": "dollar",
+        "link": "https://frontend-finanzas-beta.vercel.app/"
       }
     ],
     "backend": [

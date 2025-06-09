@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import "semantic-ui-css/components/icon.min.css";
 
 export function Firstsection(props) {
-  const [password, setPassword] = useState("");
-  const [isAuthorized, setIsAuthorized] = useState(false);
   const { language } = props;
   const el = useRef(null);
   useEffect(() => {
@@ -25,16 +23,6 @@ export function Firstsection(props) {
       typed.destroy();
     };
   }, [language]);
-  const handlePasswordSubmit = () => {
-    const userPassword = prompt('Please enter the password:');
-    const correctPassword = "123456";
-
-    if (userPassword === correctPassword) {
-      setIsAuthorized(true);
-    } else {
-      alert("Incorrect password. Please try again.");
-    }
-  };
 
   return (
     <div id="franco" className="first-block">
