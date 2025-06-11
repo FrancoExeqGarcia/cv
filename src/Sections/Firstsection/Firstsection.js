@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import "./firstsection.scss";
 import { Icon } from "semantic-ui-react";
@@ -47,7 +47,7 @@ export function Firstsection(props) {
         >
           <Link
             target="_blank"
-            to="https://www.linkedin.com/in/franco-garcia-13ba53155/"
+            to="https://www.linkedin.com/in/franco-exequiel-garcia-13ba53155/"
             title="linkedin"
             aria-label="linkedin red social"
           >

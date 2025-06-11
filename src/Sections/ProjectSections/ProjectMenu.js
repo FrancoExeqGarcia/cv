@@ -19,12 +19,6 @@ export function ProjectMenu(props) {
       >
         Backend
       </button>
-      <button
-        className={`btn ${menu === "dataAnalysis" ? "active" : ""}`}
-        onClick={() => handleChangeMenu("dataAnalysis")}
-      >
-        Data Analysis
-      </button>
     </div>
   );
 }
