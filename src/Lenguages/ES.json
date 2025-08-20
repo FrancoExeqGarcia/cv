@@ -36,7 +36,7 @@
       {
         "title": "Cine AppS",
         "content": "Página web de películas y series, así como las tendencias en ambas secciones.",
-        "img": "/cv/projects/themovie.webp",
+        "img": "projects/themovie.webp",
         "tecnology": ["Javascript"],
         "tag": ["localstorage"],
         "icon": "tv",
@@ -46,7 +46,7 @@
       {
         "title": "Task Minder 1.0",
         "content": "Primera versión de un proyecto facultativo similar a Jira, dentro del boton ´ver codigo´ se encuentran los usuarios disponibles",
-        "img": "/cv/projects/taskMinder.webp",
+        "img": "projects/taskMinder.webp",
         "tecnology": ["React"],
         "tag": ["react"],
         "icon": "deaf",
@@ -56,7 +56,7 @@
       {
         "title": "Traductor",
         "content": "Pagina web para traducir textos",
-        "img": "/cv/images/Google_Translate.png",
+        "img": "images/Google_Translate.png",
         "tecnology": ["React","TypeScript"],
         "tag": ["react","typescript"],
         "icon": "translate",
@@ -66,11 +66,20 @@
       {
         "title": "Valor dolar",
         "content": "Pagina web para consultar precios del dolar. Dale un minuto para que se despierte! Los servidores se duermen por inactividad.",
-        "img": "/cv/projects/dolar.png",
+        "img": "projects/dolar.png",
         "tecnology": ["React","TypeScript"],
         "tag": ["react","typescript"],
         "icon": "dollar",
         "link": "https://frontend-finanzas-beta.vercel.app/"
+      },
+      {
+        "title": "Eccomerce",
+        "content": "Pagina web para comprar productos de una tienda online.",
+        "img": "projects/carrito.png",
+        "tecnology": ["React","TypeScript"],
+        "tag": ["react","typescript"],
+        "icon": "credit card",
+        "link": "https://eccomerce-weld.vercel.app/"
       }
     ],
     "backend": [
@@ -87,7 +96,7 @@
           "- Permisos y Roles.",
           "- Etc."
         ],
-        "img": "/cv/projects/taskMinder.webp",
+                  "img": "projects/taskMinder.webp",
         "tecnology": [".NET Core", "Sqlite"],
         "tag": ["netcore", "sqlite"],
         "icon": "blogger",
@@ -105,7 +114,7 @@
           "- Documentación de API: Generación de documentación con Swashbuckle.AspNetCore.",
           "- Pruebas unitarias: Implementación de pruebas con xUnit y Moq para asegurar la calidad del código."
         ],
-        "img": "/cv/projects/taskMinder2.webp",
+                  "img": "projects/taskMinder2.webp",
         "tecnology": [".NET Core", "Sql Server","React"],
         "tag": ["netcore", "sqlserver", "react"],
         "icon": "blogger",
@@ -115,7 +124,7 @@
     "dataAnalysis": [
       {
         "title": "Curso Fundamentos de Data Analytics",
-        "img": "/cv/projects/Investigacion-de-Mercados.jpg",
+        "img": "projects/Investigacion-de-Mercados.jpg",
         "content": "Proyecto de análisis de plataformas de streaming utilizando Excel.",
         "tecnology": ["Excel"],
         "tag": ["excel"],
@@ -143,62 +152,62 @@
     "Frontend": [
       {
         "skill": "HTML5",
-        "icon": "/cv/tecnologies/html.svg"
+        "icon": "tecnologies/html.svg"
       },
       {
         "skill": "CSS3",
-        "icon": "/cv/tecnologies/css.svg"
+        "icon": "tecnologies/css.svg"
       },
       {
         "skill": "JavaScript",
-        "icon": "/cv/tecnologies/javascript.svg"
+        "icon": "tecnologies/javascript.svg"
       },
       {
         "skill": "React",
-        "icon": "/cv/tecnologies/react.svg"
+        "icon": "tecnologies/react.svg"
       },
       {
         "skill": "TypeScript",
-        "icon": "/cv/tecnologies/typescript.svg"
+        "icon": "tecnologies/typescript.svg"
       }
     ],
     "Backend": [
       {
         "skill": ".Net Core",
-        "icon": "/cv/tecnologies/netcore.svg"
+        "icon": "tecnologies/netcore.svg"
       },{
         "skill": "C#",
-        "icon": "/cv/tecnologies/cc.svg"
+        "icon": "tecnologies/cc.svg"
       }
     ],
     "Testing": [
       {
         "skill": "xUnit",
-        "icon": "/cv/tecnologies/xunit.svg"
+        "icon": "tecnologies/xunit.svg"
       }
     ],
     "DB": [
       {
         "skill": "MySQL",
-        "icon": "/cv/tecnologies/mysql.svg"
+        "icon": "tecnologies/mysql.svg"
       },
       {
         "skill": "SQLServer",
-        "icon": "/cv/tecnologies/sql-server.svg"
+        "icon": "tecnologies/sql-server.svg"
       }
     ],
     "Others": [
       {
         "skill": "Git",
-        "icon": "/cv/tecnologies/git.svg"
+        "icon": "tecnologies/git.svg"
       },
       {
         "skill": "Wordpress",
-        "icon": "/cv/tecnologies/wordpress.svg"
+        "icon": "tecnologies/wordpress.svg"
       },
       {
         "skill": "Inglés B2",
-        "icon": "/cv/tecnologies/english.svg"
+        "icon": "tecnologies/english.svg"
       }
     ]
   }

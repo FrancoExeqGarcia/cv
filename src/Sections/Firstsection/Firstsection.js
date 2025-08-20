@@ -50,6 +50,7 @@ export function Firstsection(props) {
             to="https://www.linkedin.com/in/franco-exequiel-garcia-13ba53155/"
             title="linkedin"
             aria-label="linkedin red social"
+            className="linkedin-link"
           >
             <Icon size="large" name="linkedin" />
           </Link>
@@ -58,6 +59,7 @@ export function Firstsection(props) {
             to="https://github.com/FrancoExeqGarcia"
             title="github"
             aria-label="github"
+            className="github-link"
           >
             <Icon size="large" name="github" />
           </Link>
@@ -65,6 +67,7 @@ export function Firstsection(props) {
             to="mailto:francoexequiel.garcia150@gmail.com"
             title="mail"
             aria-label="mail"
+            className="email-link"
           >
             <Icon size="large" name="mail" />
           </Link>

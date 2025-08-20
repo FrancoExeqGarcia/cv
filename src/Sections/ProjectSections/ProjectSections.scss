@@ -4,6 +4,11 @@
   max-width: $max-width;
   margin: 10px auto;
   min-height: 500px;
+  background: rgba(43, 27, 185, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 
   // menu projects
   .menu_projects {
@@ -14,13 +19,22 @@
     justify-content: center;
     gap: 20px;
     button{
-      color: $text-dark;
-      background: #f4f4f4;
+      color: $text-light;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 25px;
+      padding: 10px 20px;
+      transition: 0.3s ease all;
+      font-weight: 600;
+      
       &:hover{
-        opacity: 0.8;
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
       }
       &.active{
-        background-color: #cbcbcb;
+        background: $text-yellow;
+        color: $text-dark;
+        box-shadow: 0 4px 15px rgba(243, 204, 3, 0.3);
       }
     }
   }
@@ -38,12 +52,23 @@
       max-width: 47%;
       display: flex;
       flex-direction: column;
-      border-radius: 5px;
-      box-shadow: 0px 0px 8px 0px #e3e3e3;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
       max-height: 350px;
       min-width: 310px;
+      transition: 0.3s ease all;
+      
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+      }
       .item_card_title {
         margin: 10px;
+        color: $text-light;
+        font-weight: 600;
       }
       .image_card {
         position: relative;
@@ -114,11 +139,20 @@
     //Backend card
     .item_card_backend {
       width: 100%;
-      border-radius: 5px;
-      box-shadow: 0px 0px 8px 0px #e3e3e3;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
       min-width: 310px;
       display: grid;
       grid-template-columns: 1fr 2fr;
+      transition: 0.3s ease all;
+      
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+      }
       .backend_content_img {
         height: 100%;
         max-width: 500px;
@@ -142,13 +176,16 @@
         &_title {
           margin: 8px 0;
           padding: 7px 0;
-          border-bottom: 1px solid #e3e3e3;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+          color: $text-light;
+          font-weight: 600;
         }
         &_text > * {
           margin: 5px 0;
+          color: $text-light;
         }
         &_tags {
-          border-top: 1px solid #e3e3e3;
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
           margin-top: auto;
           padding-top: 10px;
           display: flex;
@@ -165,16 +202,25 @@
   max-width: 47%;
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
-  box-shadow: 0px 0px 8px 0px #e3e3e3;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   max-height: 350px;
   min-width: 310px;
+  transition: 0.3s ease all;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
 
   .item_card_title {
     margin: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #333;
+    color: $text-light;
   }
 
   .image_card {
