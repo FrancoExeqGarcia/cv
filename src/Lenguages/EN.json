@@ -71,15 +71,15 @@
         "icon": "dollar",
         "link": "https://frontend-finanzas-beta.vercel.app/"
       },
-      {
-        "title": "Eccomerce",
-        "content": "Website to buy products from an online store.",
-        "img": "projects/carrito.png",
-        "tecnology": ["React","TypeScript"],
-        "tag": ["react","typescript"],
-        "icon": "credit card",
-        "link": "https://eccomerce-weld.vercel.app/"
-      }
+             {
+         "title": "Eccomerce",
+         "content": "Website to buy products from an online store.",
+         "img": "projects/carrito.png",
+         "tecnology": ["React","TypeScript"],
+         "tag": ["react","typescript"],
+         "icon": "credit card",
+         "link": "https://eccomerce-weld.vercel.app/"
+       }
       ],
       "backend": [
         {
@@ -118,9 +118,20 @@
           "tag": ["netcore", "sqlserver", "react"],
           "icon": "blogger",
           "code": "https://github.com/FrancoExeqGarcia/TP-PPS"
-        }
-      ],
-      "dataAnalysis": [
+              }
+    ],
+    "corporate": [
+      {
+        "title": "RGB Corporation",
+        "content": "Website for RGB Corporation",
+        "img": "projects/rgb.jpg",
+        "tecnology": ["Astro", "React", "TypeScript", "JavaScript"],
+        "tag": ["netcore", "sqlserver", "react"],
+        "icon": "building",
+        "link": "https://www.rgb-corporation.com/"
+      }
+    ],
+    "dataAnalysis": [
       {
         "title": "Platform Analysis",
         "img": "projects/Investigacion-de-Mercados.jpg",
@@ -130,11 +141,18 @@
         "code": "https://docs.google.com/spreadsheets/d/1hleZfCr8-rlRtO3TEI9FIAo6Zi7tQhanaWZWjSXdv_s/edit?gid=451750751#gid=451750751"
       }
     ],
-      "buttons": {
-        "demo": "View demo",
-        "code": "View code",
-        "video": "View video"
-      }
+          "buttons": {
+      "demo": "View demo",
+      "code": "View code",
+      "page": "View page",
+      "video": "View video"
+    },
+    "sections": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "corporate": "Corporate",
+      "dataAnalysis": "Data Analysis"
+    }
     }
   },
   "CF": {

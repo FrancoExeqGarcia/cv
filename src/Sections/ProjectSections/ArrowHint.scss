@@ -1,0 +1,23 @@
+.arrow-hint {
+  position: fixed;
+  z-index: 100;
+  bottom: 18px;
+  font-size: 2rem;
+  pointer-events: none;
+}
+.arrow-hint.right {
+  right: 18px;
+}
+.arrow-hint.left {
+  left: 18px;
+}
+.arrow-light {
+  color: #ffe066;
+  text-shadow: 0 0 8px #ffe066, 0 0 16px #fff200;
+  animation: blink-light 1s infinite alternate;
+}
+@keyframes blink-light {
+  0% { opacity: 0.5; filter: blur(1px); }
+  50% { opacity: 1; filter: blur(0px); }
+  100% { opacity: 0.5; filter: blur(1px); }
+}

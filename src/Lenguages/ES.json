@@ -121,6 +121,17 @@
         "code": "https://github.com/FrancoExeqGarcia/TP-PPS"
       }
     ],
+    "corporate": [
+      {
+        "title": "RGB Corporation",
+        "content": "Sitio web para la empresa RGB Corporation",
+        "img": "projects/rgb.jpg",
+        "tecnology": ["Astro", "React", "TypeScript", "JavaScript"],
+        "tag": ["netcore", "sqlserver", "react"],
+        "icon": "building",
+        "link": "https://www.rgb-corporation.com/"
+      }
+    ],
     "dataAnalysis": [
       {
         "title": "Curso Fundamentos de Data Analytics",
@@ -134,7 +145,14 @@
     "buttons": {
       "demo": "Ver demo",
       "code": "Ver código",
+      "page": "Ver página",
       "video": "Ver video"
+    },
+    "sections": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "corporate": "Corporativo",
+      "dataAnalysis": "Análisis de Datos"
     }
   }
 }
